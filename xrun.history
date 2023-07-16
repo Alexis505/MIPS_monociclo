@@ -1,0 +1,2 @@
+s1(07May2023:19:15:18):  xrun adder.v alu.v aludec.v controller.v datapath.v dmem.v flop.v imem.v maindec.v mips.v mux2.v regfile.v signext.v sl2.v testbench.v top.v -gui -access +rwc 
+s2(16May2023:18:54:07):  xrun adder.v alu.v aludec.v controller.v datapath.v dmem.v flop.v imem.v maindec.v mips.v mux2.v regfile.v signext.v sl2.v testbench.v top.v -gui -access +rwc -gui 

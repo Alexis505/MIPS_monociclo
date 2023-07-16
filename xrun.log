@@ -1,0 +1,37 @@
+xrun(64): 20.03-s017: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.03-s017: Started on May 16, 2023 at 18:54:06 CDT
+xrun
+	adder.v
+	alu.v
+	aludec.v
+	controller.v
+	datapath.v
+	dmem.v
+	flop.v
+	imem.v
+	maindec.v
+	mips.v
+	mux2.v
+	regfile.v
+	signext.v
+	sl2.v
+	testbench.v
+	top.v
+	-gui
+	-access +rwc
+	-gui
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /usr/local/cadence/installs/XCELIUM2003/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm testbench.tb_top.mips.dp.fp.clk testbench.tb_top.mips.dp.fp.d testbench.tb_top.mips.dp.fp.q testbench.tb_top.mips.dp.fp.reset
+Created probe 1
+xcelium> run
+Simulation succeeded
+Simulation stopped via $stop(1) at time 175 NS + 1
+xcelium> ...Regained control from SimVision
+-------------------------------------
+TOOL:	xrun(64)	20.03-s017: Exiting on May 16, 2023 at 18:57:32 CDT  (total: 00:03:26)
